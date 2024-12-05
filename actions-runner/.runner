@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Sydney-Macbook",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus24.actions.githubusercontent.com/VgzA45hU1wRzKR2gzS87YjIkJZIbvEf39zPv7N1KMSX9wioKjR/",
+  "gitHubUrl": "https://github.com/SydneyBao/learn-continuous-integration",
+  "workFolder": "_work"
+}
