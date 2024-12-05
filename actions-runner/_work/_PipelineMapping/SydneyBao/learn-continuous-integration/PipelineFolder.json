@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "SydneyBao/learn-continuous-integration",
+  "pipelineDirectory": "learn-continuous-integration",
+  "workspaceDirectory": "learn-continuous-integration/learn-continuous-integration",
+  "repositories": {
+    "SydneyBao/learn-continuous-integration": {
+      "repositoryPath": "learn-continuous-integration/learn-continuous-integration",
+      "lastRunOn": "12/05/2024 17:57:20 -05:00"
+    }
+  },
+  "lastRunOn": "12/05/2024 18:38:07 -05:00"
+}
