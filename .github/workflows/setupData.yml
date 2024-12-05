@@ -7,7 +7,7 @@ on:
 
 jobs:
   setup-sample-data:
-    runs-on: Sydney-Macbook
+    runs-on: self-hosted
 
     steps:
       - name: Checkout Repository

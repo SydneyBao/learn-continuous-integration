@@ -7,7 +7,7 @@ on:
 
 jobs: 
   "setup-database":
-    runs-on: Sydney-Macbook
+    runs-on: self-hosted
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
