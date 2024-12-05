@@ -7,7 +7,7 @@ on:
 
 jobs:
   setup-sample-data:
-    runs-on: cs5500-self-hosted
+    runs-on: Sydney-Macbook
 
     steps:
       - name: Checkout Repository
