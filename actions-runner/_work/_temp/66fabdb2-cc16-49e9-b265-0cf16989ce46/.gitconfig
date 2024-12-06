@@ -1,0 +1,12 @@
+[user]
+	email = entrepreneurs@northeastern.edu
+	name = Sydney Bao
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[init]
+	defaultBranch = main
+[safe]
+	directory = /Users/sydneybao/Downloads/CS/learn-continuous-integration/actions-runner/_work/learn-continuous-integration/learn-continuous-integration
