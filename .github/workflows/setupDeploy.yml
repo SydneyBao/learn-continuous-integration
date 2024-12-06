@@ -19,4 +19,4 @@ jobs:
         run: npx ts-node remove_db.ts
 
       - name: Seed database
-        run: npx ts-node insert_sample_db.ts
+        run: npx ts-node insert_sample_data.ts
