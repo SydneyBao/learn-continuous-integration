@@ -45,7 +45,7 @@ Answer the following questions:
 
 1. What does the __runs-on__ string  
 
-The runs-on: Sydney-Macbook line specifies that this job will run on a self-hosted runner labeled "Sydney-Macbook". This is a custom runner.
+The runs-on: self-hosted line specifies that this job will run on a self-hosted, custom runner.
 
 2. In `main.yml`, on which branch do the jest tests run when a push to main branch is made?
 
