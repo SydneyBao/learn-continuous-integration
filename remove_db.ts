@@ -5,7 +5,7 @@ const userArgs: string[] = process.argv.slice(2);
 const mongoDB: string = userArgs[0];
 
 // Connect to MongoDB
-mongoose.connect(mongoDB)
+mongoose.connect("mongodb://127.0.0.1:27017/my_library_db")
     .then(() => {
         const db: Connection = mongoose.connection;
 
