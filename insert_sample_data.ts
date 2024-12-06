@@ -24,7 +24,7 @@ main().catch((err) => console.log(err));
 
 async function main() {
   console.log("Debug: About to connect");
-  await mongoose.connect(mongoDB);
+  await mongoose.connect("mongodb://127.0.0.1:27017/my_library_db");
   console.log("Debug: Should be connected?");
   await createGenres();
   await createAuthors();
